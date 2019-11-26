@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './FullPost.module.css';
+import './FullPost.css';
 
 class FullPost extends Component {
     render () {
