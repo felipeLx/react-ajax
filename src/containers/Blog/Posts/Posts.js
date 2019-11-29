@@ -47,8 +47,9 @@ class Posts extends Component {
                         key={post.id}
                         title={post.title} 
                         author={post.author}
-                        clicked={() => this.postSelectedHandler(post.id)} />;
-                   // </Link>)
+                        clicked={() => this.postSelectedHandler(post.id)} />
+                   // </Link>
+                   )
             });
         }
 
